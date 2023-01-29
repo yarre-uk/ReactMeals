@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #3f3f3f;
+}
+
+#backgroundFood {
+    box-sizing: border-box;
+    top: -100px;
+    left: -100px;
+    z-index: -10;
+    position: absolute;
+    height: 80vh;
+    width: 120vw;
+    background-size: cover;
+    transform: rotate(-5deg) translateY(-4rem) translateX(-1rem);
+    background-image: url("./assets/food.jpg");
+    background-color: #3f3f3f;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /*background-;*/
+}
